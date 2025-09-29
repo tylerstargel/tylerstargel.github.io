@@ -1,7 +1,44 @@
 body {
     background-color: bisque;
+    font-family: sans-serif;
 }
 
 h1 {
-    color: blue;
+    color: grey;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 15px;
+    /* border-right: 2px solid black; */
+}
+ul a {
+    text-decoration: none;
+}
+
+.navigation {
+    border: 2px solid black;
+    padding: none;
+}
+
+.about h2{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.skills h2 {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.projects h2 {
+    text-decoration: line-through;
+}
+
+.contact h2 {
+    font-size: 38px;
 }

@@ -1,10 +1,15 @@
 body {
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-image: url(imgs/bg2.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
     font-family: sans-serif;
 }
 
 h1 {
-    color: grey;
+    color: #333;
     text-align: center;
 }
 ul {
@@ -25,14 +30,22 @@ ul a {
     padding: none;
 }
 
+h2 {
+    color: #333;
+}
+
 .about h2{
-    background-color: black;
-    color: whitesmoke;
+    background-color: #2ECC71;
+}
+
+.about p {
+    font-weight:500;
+    /* background-color: white; */
 }
 
 .skills h2 {
     text-decoration: underline;
-    color: cornflowerblue;
+    color: #2ECC71;
 }
 
 .projects h2 {
@@ -41,5 +54,30 @@ ul a {
 
 .contact h2 {
     font-size: 38px;
+}
+
+.palette {
+    display: flex;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+}
+
+#one {
+background-color: white;
+}
+
+#two {
+background-color: black;
+}
+
+#three {
+background-color: #2ECC71;
+}
+#four {
+background-color: #333;
 }
 /* Why is github not updating my website */

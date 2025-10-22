@@ -43,7 +43,7 @@ h2 {
     /* background-color: white; */
 }
 
-.skills h2 {
+.skills h2, a {
     text-decoration: underline;
     color: #2ECC71;
 }
@@ -51,6 +51,11 @@ h2 {
 .projects h2 {
     text-decoration: line-through;
 }
+
+/* .projects img {
+    width: 100px;
+    height: 100px;
+} */
 
 .contact h2 {
     font-size: 38px;

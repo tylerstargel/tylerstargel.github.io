@@ -12,11 +12,11 @@ h1 {
     color: #333;
     text-align: center;
 }
-ul {
+#nav-list {
     list-style-type: none;
     text-align: center;
 }
-li {
+.navigation {
     display: inline;
     margin: 15px;
     /* border-right: 2px solid black; */
